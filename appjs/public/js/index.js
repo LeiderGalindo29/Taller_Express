@@ -23,7 +23,7 @@ info()
 
 function education() {
     const card = document.getElementById("card-edu")
-    const container = document.getElementById("this")
+    const container = document.getElementById("i")
  
 card.addEventListener("click",()=>{
     container.classList.toggle('desc')
