@@ -44,26 +44,17 @@ const port = 3005
 app.set('view engine','ejs');
 app.set('views',__dirname + '/views');
 app.use(express.static(__dirname + '/public')); 
-
-app.get('/', (req, res) => {
-    res.render('index')
-  })  
-
-app.get('/educacion', (req, res) => {
-    res.render('educacion')
-  })  
-
+ 
+//rutas
+app.use('/', require('./routes/Routes'))
   
-  app.get('/habilidades', (req, res) => {
-    res.render('habilidades')
-  })  
-
-app.listen(port, () => {
-  console.log(`Estas en el puerto : ${port}`)
-})
-
 app.use((req, res, next)=>
 {
     res.status(404). sendFile(__dirname + '/public/404.html')
 }
 )
+
+app.listen(port, () => {
+  console.log(`Estas en el puerto : ${port}`)
+})
+

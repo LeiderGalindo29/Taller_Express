@@ -13,10 +13,7 @@
 <body>
     <section class="left">
         <div class="container-grey">
-            <div class="image-main">
-                <img src="img/imagen-pres.PNG" alt="">
-
-            </div>
+            <%-include ("templates/img"); %>
             <h1 class="name-main"> LEIDER STIBEN GALINDO TOLEDO</h1>
             <div class="about">
                 <h2 id="card"><i class="fa-solid fa-chevron-down"></i>Acerca de mi</h2>
@@ -87,11 +84,7 @@
         </div>
         </div>
     </section>
-    <footer class="">
-        <h2 class="back-black">
-            Derechos Reservados - Creado por Leider Galindo @Copyright
-        </h2>
-    </footer>
+    <%-include ('templates/footer'); %>
     <script src="js/index.js"></script>
 </body>
 
