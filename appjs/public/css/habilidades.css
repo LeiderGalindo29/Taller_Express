@@ -1,0 +1,51 @@
+*{
+    font-family: 'Overpass', sans-serif;
+    padding: 0%;
+    margin: 0%;    
+}
+
+.image-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aptitudes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+    margin-top: -11%;
+}
+
+h1 {
+    background-color: dodgerblue;
+    text-align: center;
+    margin-top: 9%;
+}
+
+.back-black {
+    background-color: black;
+    font-size: 1.12em;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.skills {
+    padding: 3%;
+    margin-top: -3%;
+}
+
+.sub-skills {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 156%;
+}
+
+.sub-ap {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 140%;
+}

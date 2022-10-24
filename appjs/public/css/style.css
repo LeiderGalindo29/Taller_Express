@@ -8,6 +8,24 @@ i{
     background-repeat: no-repeat;
 }
 
+.eicher {
+    height: 3px;
+}
+
+.references {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.references-engi {
+    padding: 6%;
+    background-color: gainsboro;
+}
+
+.references-empresario {
+    padding: 6%;
+}
 
 .name-main{
     color: #008eff;
@@ -33,10 +51,7 @@ i{
 .description {
     display: none;
     padding: 28px;
-    width: 74%;
     background-color: #ced4d9;
-    margin-top: -3%;
-    margin-left: 4%;
     border-radius: 4px;
 }
 
@@ -44,16 +59,12 @@ i{
     transition: 1s;
 }
 
-.hidden-info{
+.hidden-info {
     display: none;
     padding: 10px;
-    width: 85%;
     background-color: #ced4d9;
     margin-top: -3%;
-    margin-left: 4%;
-    border-radius: 4px;
 }
-
 
 .desc{
     display: flex;
@@ -73,7 +84,22 @@ i{
     transition: 1s;
 }
 
+.personal-references {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: unset; */
+}
 
+.references-h3{
+    text-align: center;
+    color: #008eff;
+    padding: 3%;
+}
+
+h3 {
+    text-align: center;
+}
 /***********-education-*/
 
 #card-edu {
@@ -126,6 +152,13 @@ p.show-info-date {
     margin-left: 4%;
 }
 
+.eicher{
+    height: 7px;
+    margin-left: 2%;
+    text-align: center;
+    background-color: black;
+}
+
 .name-info-learn {
     background-color: #ced4d9;
     width: 88%;
@@ -133,6 +166,25 @@ p.show-info-date {
     margin-left: 4%;
 }
 
+.references-empresario {
+    padding: 6%;
+}
+
+.references-social {
+    padding: 6%;
+}
+
+.back-black {
+    background-color: black;
+    font-size: 1.12em;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+.family-references {
+    padding: 6%;
+    background-color: gainsboro;
+}
 p.show-info-level {
     padding: 15px;
     background-color: #ced4d9;
@@ -156,4 +208,104 @@ p.show-info-level {
     justify-content: center;
     align-items: center;
 }
- 
+
+.title-refer{
+    display: none;
+}
+
+.main-direccion {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    padding: 3%;
+    margin-top: -3%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+i.fa-solid.fa-arrow-right {
+    font-size: 1.4em !important;
+    display: flex !important;
+    justify-content: end !important;
+}
+
+.language {
+    background-color: #008eff;
+    padding: 6%;
+    margin-bottom: 5%;
+    border-radius: 12px;
+}
+
+.skills{
+    background-color: #008eff;
+    padding: 6%;
+    margin-bottom: 5%;
+    border-radius: 12px;
+}
+
+.education{
+    background-color: #008eff;
+    padding: 6%;
+    border-radius: 12px;
+}
+
+@media only screen and (min-width: 1024px){
+    .about {
+        display: flex;
+        justify-content: center;
+    }   
+
+    hr{
+        display: none;
+    }
+    p#description {
+        width: 22%;
+        /* height: 8em; */
+    }
+    p#hidden-info {
+        margin-top: 0%;
+        width: 23%;
+        margin-left: 0%;
+        margin-right: 2%;
+    }
+    .references-h3{
+        display: none;
+    }
+    .title-refer{
+        display: flex;
+
+    }
+    .references-engi {
+        padding: 5%;
+    }
+    .references{
+        display: flex;
+        flex-direction: inherit;
+    }
+    .title-refer {
+        display: flex;
+        padding: 2%;
+        justify-content: center;
+        color: #008eff;
+    }
+    .main-direccion {
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-evenly;
+    }
+    .education {
+        margin-bottom: 5%;
+    }
+    .container-grey {
+        margin-bottom: 2%;
+    }
+}
+    

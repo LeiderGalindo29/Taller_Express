@@ -1,0 +1,37 @@
+*{
+    font-family: 'Overpass', sans-serif;
+    padding: 0%;
+    margin: 0%;    
+}
+
+.image-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1#card-edu {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 4%;
+}
+
+.sub-edu {
+    padding: 4%;
+    text-align: center;
+}
+.back-black {
+    background-color: black;
+    font-size: 1.12em;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+p#show-info {
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+p#show-info-date {
+    margin-bottom: 4%;
+}

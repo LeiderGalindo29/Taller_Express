@@ -7,7 +7,6 @@ card.addEventListener("click",()=>{
     text.classList.toggle('desc')
 });
 }
-
 description()
 
 function info() {

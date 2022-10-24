@@ -52,10 +52,7 @@ app.get('/', (req, res) => {
 app.get('/educacion', (req, res) => {
     res.render('educacion')
   })  
- 
-  app.get('/idioma', (req, res) => {
-    res.render('idioma')
-  })  
+
   
   app.get('/habilidades', (req, res) => {
     res.render('habilidades')
