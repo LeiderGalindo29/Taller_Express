@@ -10,6 +10,15 @@
     align-items: center;
 }
 
+.name-main{
+    color: #008eff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 4px;
+}
+
+
 h1#card-edu {
     background-color: dodgerblue;
     text-align: center;
@@ -28,10 +37,73 @@ h1#card-edu {
     padding: 5%;
 }
 p#show-info {
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     margin-top: 1%;
+    font-size: 1.5em;
+}
+p#show-info-date {
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+a.skills-main {
+    margin-right: 2%;
+    background-color: dodgerblue;
+    padding-left: 4em;
+    padding-top: 1em;
+    padding-right: 4em;
+    text-decoration: auto;
+    color: black;
+    border-radius: 35px;
+}
+a.skills-main:hover {
+    background-color: white;
+    border: #008eff;
+    color: black;
+    transition: 1s;
 }
 
-p#show-info-date {
-    margin-bottom: 4%;
+a.home {
+    width: 11%;
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 1em;
+    text-decoration: auto;
+    color: black;
+    border-radius: 35px;
+}
+a.home:hover {
+    background-color: white;
+    border: #008eff;
+    color: black;
+    transition: 1s;
+}
+.container-butt {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+hr#hr {
+    height: 7px;
+    background-color: black;
+}
+
+h2#name-info {
+    margin-top: 1%;
+    font-size: 1.5em;
+}
+
+h2#name-info-learn {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.5em;
+}
+h2#name-info-school {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.5em;
+}
+p#show-info-level {
+    font-size: 1.5em;
 }
